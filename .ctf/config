@@ -3,4 +3,7 @@ url = http://31.220.82.212:7400
 access_token = ctfd_dcd61c7364e862debfa0520223de496ffbf3f27c02b6eb7d698a96d253139ec8
 
 [challenges]
+general = general
+system/ssh-sample = system/ssh-sample
+system/nc-sample = system/nc-sample
 

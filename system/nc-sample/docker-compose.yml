@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  silreen-nc-sample:
+    build: .
+    restart: always
+    image: "silreen-nc-sample"
+    ports: 
+      - "7401:7401"

@@ -1,0 +1,25 @@
+name: "einstein"
+author: "sikk"
+category: Linux
+description: "ssh test"
+
+value: 0
+type: dynamic
+
+extra:
+    initial: 300
+    decay: 5
+    minimum: 50
+
+connection_info: "ssh silreen@31.220.82.212 -p 7402(pw: password)"
+
+flags:
+    - "HACK{th30ry_of_r3l4tiv3_p4th5}"
+
+requirements:
+    - "free shell"
+
+state: visible
+version: "0.1"
+
+

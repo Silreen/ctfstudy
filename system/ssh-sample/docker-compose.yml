@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  silreen-ssh-sample:
+    build: .
+    image: "silreen-ssh-sample"
+    restart: always
+    ports: 
+      - "7402:22"
